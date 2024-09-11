@@ -1,0 +1,13 @@
+.navbgcolor{
+    background-color: rgba(15, 95, 75, 0.849);
+}
+.link{
+    cursor: pointer;
+    
+}
+.link:hover{
+    border-bottom: 1px solid white;
+}
+.button{
+    cursor: pointer;
+}
