@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About us</title>
+    <link rel="stylesheet" href="logincontactus.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+
+<body>
+    <nav>
+        <div class="logo">
+            <h1>FreshCard</h1>
+        </div>
+        <div class="navlinks">
+            <h1 class="navhomeabout"><a href="index.html">Home</a></h1>
+            <h1 class="navhomeabout"><a href="contactus.html">Contact us</a></h1>
+            <h1 class="navhomeabout"><a href="login.html">Login</a></h1>
+
+        </div>
+    </nav>
+    <h1 class="heading">Contact Us</h1>
+    <form action="">
+        <label for="name" class="label">Name</label>
+        <input type="text" name="" id="" class="inputbox" placeholder="Enter your name">
+        <label for="email" class="label">Email id</label>
+        <input type="email" name="" id="" class="inputbox" placeholder="Enter your Email">
+        <label for="msg" class="label">Enter Your Query</label>
+        <textarea name="msg" id="" class="txtarea" placeholder="Type a message" rows="6"></textarea>
+        <button class="btn" onclick="submitfunc()">Submit</button>
+
+        <a class="backtohome" href="index.html">back to Home</a>
+    </form>
+    <hr>
+    <div id="contactfooter">
+        <div id="location" class="cfoot">
+            <h2>Location</h2>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d6091467.330379359!2d69.8045952772804!3d17.887049167779594!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sin!4v1723107049496!5m2!1sen!2sin" 
+            width="300" height="300" style="border:0;" allowfullscreen="" 
+            loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+            </iframe>
+    </div>    
+    <div id="phoneno" class="cfoot">
+        <h2>Phone No</h2>
+        <i class="fa fa-phone icon" style="font-size:36px"></i>
+        <br>
+        <a class="icons" href="tel:123456788">123456788</a>
+    </div>  
+    <div id="whatsapp" class="cfoot">
+        <h2>Whatsapp</h2>
+        <i class="fa fa-whatsapp icon" style="font-size:36px"></i>
+        <br>
+        <a class="icons" href="tel:123456788">123456788</a>
+    </div> 
+    </div>
+
+    
+    <footer>
+        <h1 class="footer">Copy right 2024 &copy;.Books. All right reserved</h1>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,82 @@
+form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 20px;
+}
+.label{
+    text-align: left;
+    width: 500px;
+    padding: 10px;
+    font-weight: bold;
+    font-size: 20px;
+}
+.inputbox{
+    width: 500px;
+    padding: 10px;
+    border: 1px solid grey;
+    font-size: 20px;
+    outline: none;
+
+
+}
+.inputbox:hover{
+    border: 1px solid rgb(70, 63, 63);
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.btn{
+    margin: 30px;
+    padding: 10px;
+    font-size: 25px;
+    border-radius: 5px;
+    background-color: rgb(77, 146, 77);
+}
+.btn:hover{
+    box-shadow: rgba(52, 175, 104, 0.35) 0px 5px 15px;
+    
+}
+.heading{
+    text-align: center;
+    padding: 10px;
+}
+.txtarea{
+    width: 500px;
+    padding: 10px;
+    font-size: 25px;
+}
+.backtohome{
+    padding: 10px;
+    margin-top: 20px;
+    font-size: 20px;
+}
+#contactfooter{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-around;
+    padding: 5px;
+    margin: 5px;
+}
+.cfoot{
+    text-align: center;
+    width: 20%;
+}
+.icons{
+    padding: 10px;
+    margin: 20px;
+    font-size: 20px;
+    letter-spacing: 1.5px;
+}
+.icon{
+    margin-bottom: 20px;
+}
+.footer{
+    text-align: center;
+    padding: 10px;
+    background-color: rgb(2, 2, 56);
+    color: white;
+    font-size: 20px;
+    font-weight: normal;
+}
